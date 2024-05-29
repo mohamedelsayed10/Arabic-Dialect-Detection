@@ -84,17 +84,4 @@ These models are combined in a voting classifier to provide the best prediction.
 - `label_encoder.pkl`: Serialized label encoder.
 - `requirements.txt`: List of Python dependencies.
 
-## Example
 
-![Example](screenshot.png)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-- Streamlit for the web application framework.
-- scikit-learn for machine learning tools.
-- gTTS for Text-to-Speech conversion.
-- pydub for audio playback.
