@@ -1,4 +1,5 @@
 # Arabic Dialect Detection App
+![image](https://github.com/mohamedelsayed10/Arabic-Dialect-Detection/assets/87568101/2838d316-57d0-4276-aa55-c07cd693f9b8)
 
 This is a Streamlit application that predicts the dialect of Arabic text input and provides a Text-to-Speech (TTS) feature to play the detected dialect.
 
