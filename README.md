@@ -1,5 +1,7 @@
+
 # Arabic Dialect Detection App
 ![image](https://github.com/mohamedelsayed10/Arabic-Dialect-Detection/assets/87568101/2838d316-57d0-4276-aa55-c07cd693f9b8)
+
 
 This is a Streamlit application that predicts the dialect of Arabic text input and provides a Text-to-Speech (TTS) feature to play the detected dialect.
 
@@ -68,4 +70,31 @@ These models are combined in a voting classifier to provide the best prediction.
 
 ## Usage
 
-1. Enter Arabic text in the provided text
+1. Enter Arabic text in the provided text area.
+2. Click the "Predict" button.
+3. The app will display the predicted dialect and the corresponding country flag.
+4. The app will generate and play an audio file of the detected dialect.
+
+## File Structure
+
+- `app.py`: Main Streamlit application script.
+- `fun_pre.py`: Preprocessing functions for text data.
+- `best_model.pkl`: Serialized voting classifier model.
+- `vectorizer.pkl`: Serialized TF-IDF vectorizer.
+- `label_encoder.pkl`: Serialized label encoder.
+- `requirements.txt`: List of Python dependencies.
+
+## Example
+
+![Example](screenshot.png)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- Streamlit for the web application framework.
+- scikit-learn for machine learning tools.
+- gTTS for Text-to-Speech conversion.
+- pydub for audio playback.
